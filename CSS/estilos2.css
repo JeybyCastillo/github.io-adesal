@@ -1,0 +1,7 @@
+body{
+    background-image: url(../imagenes/f7.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+   /* background-attachment: fixed;/*para que quede fijo*/
+  }
