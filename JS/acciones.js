@@ -18,7 +18,6 @@ $( document ).ready(function() {
 
 });
 
-
 /*POPOVER */
 /*$(document).ready(function(){
   $('[data-toggle="popover"]').popover();   
