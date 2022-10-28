@@ -1,0 +1,13 @@
+.coltene{
+    width: 35%;
+}
+.espacio p{
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:979px){
+    .espacio{
+        height: 10vh;
+    }
+}
