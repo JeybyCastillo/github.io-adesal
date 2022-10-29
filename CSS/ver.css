@@ -1,0 +1,66 @@
+body{
+    background-image: url(../imagenes/ver.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.cuerpo{
+    justify-content: center;
+}
+.kuro{
+    width: 28%;
+    height: 58vh;
+    background-color: rgba(0, 0, 0, 0.839);
+
+}
+
+.shiro{
+    width: 35%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*SLIDER1*/
+.kuro .slider{
+    width:50vh;
+   position:absolute;
+   height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.kuro .slider ul{
+    display: flex;
+    padding: 0;
+    height: 50%;
+    width: 150vh;
+    animation: cambio 10s infinite alternate ease-in-out;
+}
+
+.kuro .slider li{
+    width: 50vh;
+    list-style: none;
+}
+
+ .kuro .slider img{
+    object-fit: cover;
+    position:relative;
+    width: 50vh;
+    height: 110%;   
+}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left:-100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left:-200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left:-300%;}
+    
+}

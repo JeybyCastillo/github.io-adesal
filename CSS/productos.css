@@ -47,7 +47,7 @@ body{
 .cuerpo {
 	display: block;
 	width: 90%;
-	height: 97vh;
+	height: 107vh;
 	/*background-color: #40eb0d;*/
 	
 }
@@ -117,7 +117,7 @@ body{
 	
   }
   .card-image .card-img{
-	height: 200px;
+	height: 220px;
 	width: 329px;
 	padding: 0;
 	padding-top: 0px;
@@ -207,6 +207,6 @@ body{
 	height: 80vh;
 	}
 	.mercancia{
-		height: 65vh;
+		height: 68vh;
 	}
 }
