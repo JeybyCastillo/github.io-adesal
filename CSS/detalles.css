@@ -1,0 +1,86 @@
+.coltene{
+    width: 35%;
+}
+.espacio p{
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:979px){
+    .espacio{
+        height: 10vh;
+    }
+}
+/*SLIDER1*/
+.card-image .slider{
+    width:218%;
+   position:absolute;
+   height: 400px;
+    overflow: hidden;
+}
+
+.card-image .slider ul{
+    display: flex;
+    padding: 0;
+    height: 50%;
+    width: 150vh;
+    animation: cambio 10s infinite alternate ease-in-out;
+}
+
+.card-image .slider li{
+    width: 50vh;
+    list-style: none;
+}
+
+ .card-image .slider img{
+    object-fit: cover;
+    position:relative;
+    width: 205px;
+    height: 110%;   
+}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left:-100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left:-200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left:-300%;}
+    
+}
+
+.pie{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.ver h4{
+    color: black;
+}
+
+.foo{
+   /* background-color: black;*/
+    width: 90%;
+}
+.ver{
+    text-align: center;
+    /*background-color: yellowgreen;*/
+    width: 10%;
+    color: rgb(7, 5, 5);
+}
+@media screen and (max-width: 979px) {
+.foo{
+    width: 70%;
+}
+.ver{
+    width:30%;
+}
+.card-image .slider img{
+    width: 46vh;
+}
+
+}
