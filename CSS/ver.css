@@ -8,17 +8,43 @@ body{
     justify-content: center;
 }
 .kuro{
-    width: 28%;
+    width: 50%;
     height: 58vh;
     background-color: rgba(0, 0, 0, 0.839);
-
+    display: inline-block;
 }
 
+.rounded{
+    width: 100%;
+
+}
+.texto{
+    text-align: center;
+   width: 100%;
+   margin: auto;
+   border: 2px /*solid #000*/;
+}
 .shiro{
-    width: 35%;
+    width: 50%;
     height: 70vh;
     background-color: rgba(0, 0, 0, 0.712);
-    text-align: center;
+   justify-content: center;
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+ @media screen and (max-width: 980px) {
+    .cuerpo{
+        display: block;
+        height: 100vh;
+    }
+    .kuro{
+        height: 20vh;
+        width: 80%;
+    }
+    .shiro{
+        width: 80%;
+    }
+    .texto{
+        margin-top: 7vh;
+    }
+ }
