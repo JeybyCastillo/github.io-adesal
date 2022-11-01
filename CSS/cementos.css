@@ -1,0 +1,28 @@
+.card-img2{
+    height: 350px;
+	width: 329px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+}
+.card-image2{
+    position: relative;
+	height: 300px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+}
+
+.prom{
+    width: 15%;
+}
+.espacio p{
+    margin-left: 20%;
+}
+
+@media screen and (max-width:979px){
+    .prom{
+        width: 35%;
+    }
+}

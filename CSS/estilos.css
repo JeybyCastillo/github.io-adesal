@@ -224,6 +224,10 @@ Full screen Modal
 
 .logo{
   position: absolute;
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:black;
 }
 @media screen and (max-width: 979px) {
 .logo{
