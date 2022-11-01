@@ -29,6 +29,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: -15%;
 }
 
 .card {
@@ -105,15 +108,25 @@ body {
         height: 50%;
     }
 
+    .cuerpo{
+        width: 90%;
+    /* background-color: rgb(43, 224, 43);*/
+        height: 61vh;
+    }
     .oficina{
     width: 55%;
-    height:81vh;
-   /* background-color: black;*/
+    height:61vh;
+   /*background-color: black;*/
+   justify-content: center;
     }
     .extra{
-        /*background-color: blueviolet;*/
+       /* background-color: blueviolet;*/
         width: 45%;
+        height: 61vh;
     }
+
+
+
 
     @media screen and (max-width: 980px) {
         .oficina{
