@@ -32,6 +32,28 @@ body{
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.shiro2{
+    width: 50%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: inline-block;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto2{
+    text-align: center;
+   width: 50%;
+  float: left;
+  background-color: aquamarine;
+}
+.columna{
+    text-align: center;
+   float: right;
+   width: 50%;
+  background-color: yellow;
+}
+
  @media screen and (max-width: 980px) {
     .cuerpo{
         display: block;
@@ -47,4 +69,15 @@ body{
     .texto{
         margin-top: 7vh;
     }
+    .shiro2{
+        margin-top: 7vh;
+        width: 90%;
+        height: 75vh;
+
+    }
+    .texto2{
+
+       
+    }
  }
+ 
