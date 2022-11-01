@@ -1,0 +1,51 @@
+/*HUUUU*/
+.hu{
+    width: 22%;
+}
+.espacio{
+    height: 20vh;
+}
+.espacio p{
+    margin-left: 30%;
+    font-weight: bold;
+}
+.cuerpo{
+    height: 115vh;
+}
+.mercancia{
+    height: 95vh;
+}
+.pie{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.ver h4{
+    color: black;
+}
+
+.foo{
+   /* background-color: black;*/
+    width: 90%;
+}
+.ver{
+    text-align: center;
+    /*background-color: yellowgreen;*/
+    width: 10%;
+    color: rgb(7, 5, 5);
+}
+@media screen and (max-width: 979px) {
+.foo{
+    width: 70%;
+}
+.ver{
+    width:30%;
+}
+.card-image .slider img{
+    width: 46vh;
+}
+
+.hu{
+    width: 50%;
+}
+}
