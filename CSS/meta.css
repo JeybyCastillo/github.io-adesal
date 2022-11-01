@@ -1,0 +1,18 @@
+.meta{
+    width: 13%;
+}
+.espacio p{
+    margin-left: 15%;
+    font-weight: bold;
+}
+.cuerpo2{
+    width: 90%;
+    display: block;
+   /*  background-color: rgb(43, 224, 43);*/
+        height: 88vh;
+}
+.mercancia2{
+	width: 100%;
+	height: 70vh;
+	/*background-color: yellow;*/
+}
