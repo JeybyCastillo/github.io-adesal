@@ -1,0 +1,49 @@
+.card-img3{
+    height: 350px;
+	width: 329px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+}
+.card-image3{
+    position: relative;
+	height: 300px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+}
+.card-img4{
+    height: 255px;
+    width: 329px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+}
+.card-img4{
+    height: 305px;
+    width: 329px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+}
+.cuerpo{
+    height: 110vh;
+}
+.espacio{
+    height: 19vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.espacio p{
+    margin-left: 15%;
+}
+.anelsam{
+    width: 17%;
+}
+@media screen and (max-width:979px){
+    .anelsam{
+        width: 57%;
+    }
+}
